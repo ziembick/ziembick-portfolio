@@ -15,7 +15,8 @@
     "react": "latest",
     "react-dom": "latest",
     "sass": "^1.68.0",
-    "tailwind-merge": "^1.14.0"
+    "tailwind-merge": "^1.14.0",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/node": "latest",
