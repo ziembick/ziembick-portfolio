@@ -1,5 +1,7 @@
 import Image from "next/image";
+import { HiArrowNarrowRight } from "react-icons/hi";
 import "./about.sass";
+import { Button } from "@/app/components/button";
 
 export const About = () => {
   return (
@@ -18,8 +20,8 @@ export const About = () => {
           </p>
         </div>
         <div className="aboutButton">
-          <a href="/contact">
-            <button>Entre em contato</button>
+          <a href="/contact" className="w-max shadow-button">
+            <Button>Entre em contato <HiArrowNarrowRight size={15} /></Button>
           </a>
           <a href="/about">
             <button>Ler mais</button>
