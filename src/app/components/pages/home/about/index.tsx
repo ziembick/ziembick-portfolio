@@ -27,7 +27,7 @@ const MOCK_CONTACTS = [
 export const About = () => {
   return (
     <section className="sectionAbout">
-      <section className="sectionAbout2">
+      <section>
         <Image
           width={320}
           height={320}

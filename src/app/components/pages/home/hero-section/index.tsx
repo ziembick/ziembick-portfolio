@@ -1,9 +1,10 @@
-'use client'
-
+"use client";
 
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import "./hero.sass";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Span } from "@/app/components/span";
 
 export const HeroSection = () => {
   return (
@@ -21,10 +22,19 @@ export const HeroSection = () => {
               }}
             />
           </h2>
-          <button>Conheça meu portfolio →</button>
+          <button>
+            <a href="#" className="btn2">
+              <Span className="spn2">Conheça meu portfolio  <HiArrowNarrowRight size={18} style={{marginLeft: '10px'}}/></Span>
+            </a>
+          </button>
         </div>
         <div className="image-container">
-          <img src="/images/01.png" alt="home" />
+          <Image
+            width={512}
+            height={512}
+            src="/images/01.png"
+            alt="Hero section Img"
+          />
         </div>
       </div>
     </section>
