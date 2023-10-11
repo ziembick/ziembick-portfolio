@@ -24,7 +24,7 @@ export const HeroSection = () => {
           <button>Conheça meu portfolio →</button>
         </div>
         <div className="image-container">
-          <img src="/images/home.png" alt="home" />
+          <img src="/images/01.png" alt="home" />
         </div>
       </div>
     </section>
