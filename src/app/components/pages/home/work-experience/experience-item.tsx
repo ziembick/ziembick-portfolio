@@ -16,8 +16,8 @@ export const ExperienceItem = () => {
           />
         </div>
         <div className="w-[1px] h-[100px] bg-blue-800"></div>
-      </div>
-      <div className="flex flex-col gap-2 text-sm sm:text-base">
+      </div> 
+      <div className="text-container container sm:text-base">
         <a
           href="https://www.linkedin.com/company/workwolf"
           target="_blank"
