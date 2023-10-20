@@ -9,12 +9,6 @@ export const WorkExperience = () => {
           subtitle="experiências"
           title="Experiência Profissional"
         />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem impedit
-          quam aperiam error animi. Aut mollitia voluptatum non, sunt animi rem
-          nesciunt repellat corporis aperiam repellendus reiciendis optio ab?
-          Sequi.
-        </p>
       </div>
       <div className="flex flex-col gap-4">
         <ExperienceItem />
