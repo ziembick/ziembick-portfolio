@@ -15,8 +15,8 @@ export const ExperienceItem = () => {
             alt="Logo da empresa Workwolf"
           />
         </div>
-        <div className="w-[1px] h-[100px] bg-blue-800"></div>
-      </div> 
+        <div className="line"></div>
+      </div>
       <div className="text-container container sm:text-base">
         <a
           href="https://www.linkedin.com/company/workwolf"
@@ -31,6 +31,13 @@ export const ExperienceItem = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nihil
           laborum officiis veniam magnam porro.
         </p>
+        <div className="techBadge lg:max-w-[350px]">
+          <TechBadge name="React" />
+          <TechBadge name="React" />
+          <TechBadge name="React" />
+          <TechBadge name="React" />
+          <TechBadge name="React" />
+        </div>
       </div>
     </div>
   );
