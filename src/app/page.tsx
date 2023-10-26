@@ -1,6 +1,6 @@
 import { About } from "./components/pages/home/about";
-import { HighlightedProjects } from "./components/pages/home/destac-projects";
 import { HeroSection } from "./components/pages/home/hero-section";
+import { HighLightedProjects } from "./components/pages/home/highlighlighted-projects";
 import { KnownTechs } from "./components/pages/home/known-techs";
 import { WorkExperience } from "./components/pages/home/work-experience";
 
@@ -12,7 +12,7 @@ export default async function Home() {
     <About />
     <KnownTechs />
     <WorkExperience />
-    <HighlightedProjects />
+    <HighLightedProjects />
     </>
   )
 }
