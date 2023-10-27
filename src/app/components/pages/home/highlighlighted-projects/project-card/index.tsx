@@ -6,14 +6,14 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 export const ProjectCard = () => {
   return (
-    <div className="flex gap-6 lg:gap-12 flex-col lg:flex-row">
+    <div className="project-card">
       <div className="">
         <Image
           width={420}
           height={304}
           src="/images/bookwise.jpg"
           alt="Imagem"
-          className="lg:min-h-full object-cover rounded-lg"
+          className="w-full h-[200px] sm:h-[300px] lg:w-[450px] lg:min-h-full object-cover rounded-lg"
         />
       </div>
       <div className="main-content">
@@ -38,7 +38,6 @@ export const ProjectCard = () => {
           <TechBadge name="Next.JS" />
           <TechBadge name="Next.JS" />
           <TechBadge name="Next.JS" />
-
         </div>
         <Link href="/projects/book-wise" className="flex items-center gap-2 text-sm">
           Ver projeto
