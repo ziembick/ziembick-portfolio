@@ -1,4 +1,5 @@
 import { cn } from "@/app/lib/utils";
+import "./horizontal.sass"
 
 type HorizontalDividerProps = {
   className?: string;
@@ -7,7 +8,7 @@ type HorizontalDividerProps = {
 export const HorizontalDivider = ({ className }: HorizontalDividerProps) => {
   return (
     <div
-      className={cn("w-full my-8 border-b border-b-gray-800", className)}
+      className={cn("horizontal-divider", className)}
     ></div>
   );
 };

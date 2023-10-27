@@ -13,7 +13,7 @@ export const ProjectCard = () => {
           height={304}
           src="/images/bookwise.jpg"
           alt="Imagem"
-          className="w-full h-[200px] sm:h-[300px] lg:w-[450px] lg:min-h-full object-cover rounded-lg"
+          className="image-class"
         />
       </div>
       <div className="main-content">
