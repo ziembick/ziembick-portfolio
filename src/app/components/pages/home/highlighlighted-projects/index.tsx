@@ -9,7 +9,7 @@ import Image from "next/image";
 export const HighLightedProjects = () => {
   return (
     <section className="container py-16">
-      <SectionTitle subtitle="destaques" title="Projetos em Destaque" />
+      <SectionTitle subtitle="competências" title="Projetos em Destaque" />
       <HorizontalDivider />
       <div>
         <ProjectCard />
