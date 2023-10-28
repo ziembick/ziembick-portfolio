@@ -11,8 +11,11 @@ export const HighLightedProjects = () => {
     <section className="container py-16">
       <SectionTitle subtitle="competências" title="Projetos em Destaque" />
       <HorizontalDivider />
-      <div>
+      <div className="project-container">
         <ProjectCard />
+        <HorizontalDivider />
+        <ProjectCard />
+        
       </div>
     </section>
   );
