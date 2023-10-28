@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./projectCard.sass";
 import Link from "next/link";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { SectionTitle } from "@/app/components/section-title";
+
 
 export const ProjectCard = () => {
   return (
@@ -31,12 +31,19 @@ export const ProjectCard = () => {
           Aspernatur hic eum iusto nesciunt mollitia aut adipisci a reiciendis
           iste!
         </p>
-        <div className="tech-badge flex gap-x-2 gap-y-3 flex-wrap mb-8 lg:max-w-[350px]">
+        <div className="tech-badge">
           <TechBadge name="Next.js" />
           <TechBadge name="Next.js" />
           <TechBadge name="Next.js" />
           <TechBadge name="Next.js" />
         </div>
+        <Link
+          href="/projects/book-wise"
+          className="flex items-center gap-2 text-sm"
+        >
+          Ver projeto
+          <HiArrowNarrowRight size={18} />
+        </Link>
       </div>
     </div>
   );
