@@ -39,7 +39,7 @@ export const ProjectCard = () => {
         </div>
         <Link
           href="/projects/book-wise"
-          className="flex items-center gap-2 text-sm"
+          className="link-container"
         >
           Ver projeto
           <HiArrowNarrowRight size={18} />

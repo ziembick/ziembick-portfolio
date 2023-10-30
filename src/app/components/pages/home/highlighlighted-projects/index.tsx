@@ -14,8 +14,7 @@ export const HighLightedProjects = () => {
       <div className="project-container">
         <ProjectCard />
         <HorizontalDivider />
-        <ProjectCard />
-        
+        <ProjectCard />        
       </div>
     </section>
   );
