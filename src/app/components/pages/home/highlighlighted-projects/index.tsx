@@ -4,7 +4,6 @@ import { ProjectCard } from "./project-card";
 import "./highlight.sass";
 import { Link } from "@/app/components/link";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Image from "next/image";
 
 export const HighLightedProjects = () => {
   return (
@@ -14,7 +13,16 @@ export const HighLightedProjects = () => {
       <div className="project-container">
         <ProjectCard />
         <HorizontalDivider />
-        <ProjectCard />        
+        <ProjectCard />
+        <HorizontalDivider />   
+
+        <p>
+          <span>Se interessou?</span>
+          <Link href="/projects" className="inline-flex">
+            Ver todos
+            <HiArrowNarrowRight size={18}/>
+          </Link>
+        </p>     
       </div>
     </section>
   );
